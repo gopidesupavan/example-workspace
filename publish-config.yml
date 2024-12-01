@@ -23,5 +23,5 @@ publishers:
           name: "SHA512 Check"
           type: "512"
           enabled: "true"
-          script: "/home/runner/work/example-pub/example-pub/scripts/checksum_check.sh"
+          script: "/home/runner/work/example-workspace/example-workspace/scripts/checksum_check.sh"
 

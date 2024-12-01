@@ -1,10 +1,9 @@
-
 name: Release Publisher
 on:
   workflow_dispatch:
 
 jobs:
-  parser:
+  rc-release:
     runs-on: ubuntu-latest
     steps:
      - name: Checkout Code
