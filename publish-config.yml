@@ -24,4 +24,9 @@ publishers:
           type: "512"
           enabled: "true"
           script: "/home/runner/work/example-workspace/example-workspace/scripts/checksum_check.sh"
+      signature-check:
+        name: "Signature Check"
+        type: "gpg"
+        enabled: "true"
+        keys: "https://dist.apache.org/repos/dist/release/airflow/KEYS"
 
